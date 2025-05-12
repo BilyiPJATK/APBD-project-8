@@ -1,6 +1,6 @@
 ﻿namespace tutorial8.Entities;
 
-public class ProductWareHouse : BaseEntity
+public class ProductWarehouse : BaseEntity
 {
     public Product Product { get; set; } = null!;
     public Order Order { get; set; } = null!;

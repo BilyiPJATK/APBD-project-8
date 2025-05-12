@@ -6,5 +6,5 @@ public class Order : BaseEntity
     public int Amount { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime? FulfilledAt { get; set; } 
-    public List<ProductWareHouse>? Products { get; set; }
+    public List<ProductWarehouse>? Products { get; set; }
 }
